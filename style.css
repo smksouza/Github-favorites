@@ -141,4 +141,10 @@ td .remove {
   background: none;
   border: none;
   color: red;
+  transition: transform 0.4ms ease-in-out;
+}
+
+td .remove:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
